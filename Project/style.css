@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* HEADER */
+.header {
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 35px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* BUTTONS */
+.btn-primary {
+    background: #1e88e5;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn-outline {
+    border: 1px solid #1e88e5;
+    background: none;
+    color: #1e88e5;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    background: #f2f8ff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-search {
+    margin-top: 20px;
+}
+
+.hero-search select,
+.hero-search button {
+    padding: 10px;
+    margin: 5px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section.light {
+    background: #f9f9f9;
+}
+
+/* CONSULTANCIES */
+.consultancy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.consultancy-card {
+    border: 1px solid #eee;
+    padding: 20px;
+}
+
+.consultancy-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/* MUNICIPALITY */
+.municipality-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.municipality-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+/* SERVICES */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* CTA */
+.cta {
+    background: #f2f8ff;
+    padding: 60px;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    background: #fff;
+    border-top: 1px solid #ddd;
+    padding: 40px 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: #555;
+    margin: 5px 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

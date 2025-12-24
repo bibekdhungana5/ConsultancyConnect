@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* HEADER */
+.header {
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 35px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* BUTTONS */
+.btn-primary {
+    background: #1e88e5;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn-outline {
+    border: 1px solid #1e88e5;
+    background: none;
+    color: #1e88e5;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* EXPLORE HEADER */
+.explore-header {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.filter-row {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-group label {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.filter-group select {
+    padding: 8px;
+    min-width: 160px;
+}
+
+/* CONSULTANCY GRID */
+.explore-section {
+    padding: 40px 0;
+}
+
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+/* CARD */
+.explore-card {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.explore-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.tags span {
+    display: inline-block;
+    background: #f1f1f1;
+    padding: 4px 8px;
+    font-size: 12px;
+    margin: 3px;
+    border-radius: 4px;
+}
+
+.rating {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.card-body button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* PAGINATION */
+.pagination {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.page-number {
+    margin: 0 15px;
+}
+
+/* FOOTER */
+.footer {
+    background: #fff;
+    border-top: 1px solid #ddd;
+    padding: 40px 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: #555;
+    margin: 5px 0;
+}
